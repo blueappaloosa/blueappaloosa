@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Blue Appaloosa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+body {
+  background: #0f1e25;
+	background-repeat:repeat-y;
+}
+strong {
+  color: #bbb;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+div#contact a:link {
+  color: #50bdee;
+}
+div#contact a:visited {
+  color: #50bdee;
+}
+div#contact a:hover {
+  color: #673ab7
+}
+div.w3-text-grey p{
+  color: #999;
+}
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 75%;
+}
+.sketchfab-embed-wrapper{
+   padding-top: 75%;
+}
+.resp-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #777;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style> </head>
+  <body class="w3-black"> <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-padding-64">
+      <!-- Avatar image in top left corner --> <img src="appy600lg.png" style="width:100%;">
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey"
+
+        style="background: #777">
+        <p>HOME</p>
+      </a> <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+        <i class="w3-xxlarge"></i>
+        <p>ABOUT</p>
+      </a> <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+        <i class="w3-xxlarge"></i>
+        <p>PORTFOLIO</p>
+      </a> <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+        <i class="w3-xxlarge"></i>
+        <p>LINKS</p>
+      </a> </nav>
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+        <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">LINKS</a>
+      </div>
+    </div>
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center" id="home" style="position:relative">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">Blue Appaloosa</span></h1>
+        <p style="position:relative;width:100%; text-align:center;">I defy
+          labels</p>
+        <img src="skeletal_horse2.png" alt="image" class="w3-image" style="z-index:-1;position:relative;margin-top:-25%"
+
+          width="75%"> </header>
+      <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">Erica Liszewski</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>Some text about me. Some text about me. I am lorem ipsum consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="skills">
+        <h3 class="w3-padding-16 w3-text-light-grey">Making Games</h3>
+        <p>I studied <strong>Digital Media</strong> at <strong>University of
+            Denver</strong> for my <strong>Master's of Arts</strong>, with a
+          focus on video games. I made several experimental video games as a
+          part of my studies, and after I graduated. I then taught game design
+          and game programming for nine years, as well as working on some
+          personal projects. My recent games have been made in <strong>Unity</strong>
+          (3d/2d games) and the <strong>HTML5 Canvas</strong> (2d games), but
+          I've used a variety of tools, including: Godot, Processing, P5,
+          OpenFrameworks, Scratch, Stencyl, and straight Java.</p>
+        <h3 class="w3-padding-16 w3-text-light-grey">Writing Code</h3>
+        <p>Prior to my Master's, I acquired a <strong>Bachelor's of Science</strong>
+          in <strong>Computer Science</strong> at <strong>Northern Arizona
+            University</strong>. I was particularly interested in User Interface
+          Design, Graphics, and the intersection between code and art. I'm
+          starting to experiment with custom shaders. I mostly use <strong>C#</strong>
+          (for Unity) and <strong>JavaScript</strong> (for the HTML5 Canvas)
+          these days, but I've used a variety of programming&nbsp; languages,
+          including: Java, C++, C, Python, and PHP; and am familiar with related
+          things like: HTML, CSS, MySQL, and AJAX.&nbsp; </p>
+        <h3 class="w3-padding-16 w3-text-light-grey">3d Modelling</h3>
+        <p>I create 3d models for games and for 3d printing. My models for game
+          are mostly <strong>low-poly<span style="color: #757575;"> animals, </span></strong>and
+          I can also <strong>UV map</strong>, <strong>rig</strong>, <strong>skin</strong>,
+          and <strong>animate</strong>. I've also created a variety of models
+          for 3d printing, from functional replacement parts to animal skull to
+          kinematic models meant for wildlife education. I primarily use <strong>Blender,</strong>
+          but have used Maya in the past and sometimes toy with Sculptris for
+          sculpting and texture painting, and OpenSCAD for CAD type modelling.</p>
+        <h3 class="w3-padding-16 w3-text-light-grey">3d Printing</h3>
+        <p>During my Master's I was introduced to 3d printing shortly before it
+          became feasible for individuals to have 3d printers at home. I
+          currently work with <strong>Fused Deposition Modeling</strong> type
+          printers, primarily my <strong>PrintrBot Simple Metal</strong> and <strong>M3D
+            Crane Quad</strong>. I've learned to do my own maintenance and
+          tuning, modify firmware settings, and adjust slicer setting, to get
+          the best out of my printers. I've used both <strong>Cura</strong> and
+          <strong>PrusaSlicer</strong> for slicing, and have written Cura
+          plugins when needed. I've started to experiment with color mixing with
+          my QuadFusion. </p>
+        <h3 class="w3-padding-16 w3-text-light-grey">Teaching</h3>
+        <p>I've spent the last decade teaching in both formal and informal
+          settings. I've taught college courses in Game Design, Game
+          Programming, Introduction to Programming, and Web Programming,
+          including <strong>face-to-face</strong>, <strong>online</strong>,
+          and <strong>hybrid </strong>courses. I have designed and developed
+          nearly all of the courses I've taught. I've also done informal
+          education and outreach including <strong>information booths</strong>,
+          <strong>nature hikes</strong>, and <strong>formal talks</strong> on
+          nature, wildlife, and companion animals. While I've become somewhat
+          disillusioned with formal education, I still enjoy teaching people
+          about things without grades being involved. </p>
+      </div>
+      <!-- End About Section -->
+      <!-- Portfolio Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="photos">
+        <h2 class="w3-text-light-grey">Projects</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half">
+            <div class="sketchfab-embed-wrapper resp-container"> <iframe class="resp-frame"
+
+                title="A 3D model" src="https://sketchfab.com/models/1e4de6292c604b5f85409583b83fa54e/embed?preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1"
+
+                allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"
+
+                frameborder="0"></iframe> </div>
+            <div class="resp-container"> <a href="https://blueappaloosa.itch.io/pygmy-nuthatch"><img
+
+                  class="resp-frame" src="pygmynuthatch.png"></a> </div>
+          </div>
+          <div class="w3-half">
+            <div class="sketchfab-embed-wrapper resp-container"> <iframe title="A 3D model"
+
+                class="resp-frame" src="https://sketchfab.com/models/a8217f74367447b09f91b76e2d38459d/embed?preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1"
+
+                allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"
+
+                frameborder="0"></iframe> </div>
+            <div class="resp-container"> <a href="https://blueappaloosa.itch.io/spider-box"><img
+
+                  class="resp-frame" src="spiderbox.png"></a> </div>
+          </div>
+          <!-- End photo grid --> </div>
+        <!-- End Portfolio Section --> </div>
+      <!-- Contact Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Around the Web</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p> <a href="https://blueappaloosa.itch.io/" target="_blank">Itch.io</a>
+          - games and other digital projects <br>
+          <a href="https://www.etsy.com/shop/blueappaloosastudio/" target="_blank">Etsy
+            Store</a> - 3d printed skulls, models, etc<br>
+          <a href="https://www.redbubble.com/people/blueappaloosa" target="_blank">Redbubble
+            Store</a> - my art on a variety of products<br>
+          <a href="https://sketchfab.com/BlueAppaloosa" target="_blank">Sketchfab</a>
+          - 3d models you can view in browser<br>
+          <a href="https://www.patreon.com/BlueAppaloosa" target="_blank">Patreon</a>
+          - Voting rights, coupons, and behind the scenes </p>
+      </div>
+      <div class="w3-padding-16 w3-content w3-text-grey"><br>
+        <!-- End Contact Section --> </div>
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+
+            target="_blank" class="w3-hover-text-deep-purple">w3.css</a></p>
+        <!-- End footer --> </footer>
+      <!-- END PAGE CONTENT --> </div>
+  </body>
+</html>
